@@ -1,0 +1,21 @@
+.imagen__beer {
+    background-image: url(../../public/assets/image10.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 50rem;
+    min-width: 30rem;
+    background-position: left;
+}
+
+
+@media (min-width: 768px) { 
+    .imagen__beer {
+        background-image: url(../../public/assets/sofi.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        min-height: 90rem;
+        background-position: top;
+        }
+}

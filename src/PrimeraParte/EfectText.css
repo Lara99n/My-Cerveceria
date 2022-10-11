@@ -1,0 +1,73 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  
+}
+.video_cerveza {
+  width: 100%;
+  height: 90vh;
+  margin: 10rem auto auto auto;
+  border-radius: 50%;
+}
+
+
+.texto {
+  width: 100%;
+  color: transparent;
+  /* Para que se vea la imagen el color tiene que ser transparente */
+  font-size: 8rem;
+  text-align: center;
+  background-image: url("../../public//assets/espuma.jpg");
+  background-size: cover;
+  background-position: top;
+  background-clip: text;
+  /* Propiedad para lograr que una foto este en un texto */
+  -webkit-background-clip: text;
+  /* Para que funcione en todos los navegadores */
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10rem auto auto auto;
+}
+
+
+@media (min-width: 768px) { 
+  .video_cerveza {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+  }
+
+  .texto {   
+    text-align: center;
+    margin: 5rem 0 ;
+    color: transparent;
+    font-size: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 992px) { 
+  .video_cerveza {
+    width: 100%;
+    height: 90vh;
+    margin: 0 0 0 55rem;
+  }
+
+  .texto {   
+    text-align: left;
+    margin: 30rem auto auto 5rem;
+    color: transparent;
+    font-size: 15rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 1200px) { 
+  
+}
